@@ -1,0 +1,139 @@
+{
+  "version": "1.0.0",
+  "format": "open_resume_standard",
+  "meta": {
+    "name": "Sirajus Salekin",
+    "sort": "chronological",
+    "sort_order": "asc",
+    "tags": [
+      "tech",
+      "software_development",
+      "backend"
+    ]
+  },
+  "data": {
+    "personal": {
+      "name": "Sirajus Salekin",
+      "phone_number": "7659949002",
+      "country_code": "+1",
+      "address_line_1": null,
+      "address_line_2": null,
+      "city": "Raleigh",
+      "state": "NC",
+      "zip": null,
+      "country": "us",
+      "email": "ssalekin14@gmail.com",
+      "linkedin_url": null,
+      "portfolio_url": null,
+      "website_url": null,
+      "other_social_url": [
+        {
+          "platform_name": "Facebook",
+          "url": "facebook.com/user"
+        },
+        {
+          "platform_name": "Dribble",
+          "url": "dribble.com/user"
+        }
+      ]
+    },
+    "summary": "to obtain employment in XYZ field.",
+    "education": [
+      {
+        "degree_level": "bachelors",
+        "degree_title": "B.A",
+        "completed": true,
+        "institution": "Earlham College",
+        "major": "Computer Science",
+        "minor": null,
+        "concentration": null,
+        "institution_city": "Richmond",
+        "institution_state": "IN",
+        "institution_zip": "47374",
+        "institution_country": "us",
+        "start_day": 14,
+        "start_month": 9,
+        "start_year": 2014,
+        "end_day": 6,
+        "end_month": 5,
+        "end_year": 2018
+      },
+      {
+        "degree_level": "masters",
+        "degree_title": "M.S.",
+        "completed": true,
+        "institution": "North Carolina State University",
+        "major": "Computer Engineering",
+        "minor": null,
+        "concentration": "Computer Architecture & Systems",
+        "institution_city": "Raleigh",
+        "institution_state": "NC",
+        "institution_zip": "27607",
+        "institution_country": "us",
+        "start_day": 14,
+        "start_month": 9,
+        "start_year": 2021,
+        "end_day": 6,
+        "end_month": 5,
+        "end_year": 2023
+      }
+    ],
+    "experience": [
+      {
+        "title": "Software Developer",
+        "employer": "Great Lakes Fund Solutions, inc",
+        "employer_city": "Lake Villa",
+        "employer_state": "IL",
+        "employer_zip": "60046",
+        "employer_country": "us",
+        "employer_phone_number": null,
+        "description": [
+          "achieved xyz doing abc",
+          "achieved abc doing xyz",
+          "the whole thing is a circle"
+        ]
+      }
+    ],
+    "skill": [
+      {
+        "name": "c",
+        "proficiency_level": "beginner",
+        "catogory": "programmaing language"
+      },
+      {
+        "name": "c++",
+        "proficiency_level": "intermediate",
+        "category": "programming language"
+      }
+    ],
+    "publication": [
+      {
+        "title": "a groundbreaking research",
+        "url": "https://nature.com/next-einstein",
+        "year": 2018,
+        "credits": "S. Salekin, et al",
+        "citation_format": "apa"
+      },
+      {
+        "title": "Yet Another groundbreaking research",
+        "url": "https://nature.com/next-einstein",
+        "year": 2021,
+        "credits": "S. Salekin, et al",
+        "citation_format": "apa"
+      }
+    ],
+    "projects": [
+      {
+        "title": "an interesting project",
+        "sub_title": null,
+        "start_date": null,
+        "end_date": null,
+        "url": null,
+        "description": [
+          "did some cool stuff",
+          "with some cool people"
+        ]
+      }
+    ]
+  }
+}
