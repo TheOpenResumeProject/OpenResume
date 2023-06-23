@@ -157,6 +157,8 @@ An `author` object contains the following fields:
 | url           | string    | No       | None    | URL            | Link to demo/code/slide deck |
 | description   | array     | No       | None    | Array of points| [See more](#point)           |
 
+##### Description
+A `description` contains one or more bullet points and is used in `projects` and `experience` sections
 
 #### Summary
 WIP
