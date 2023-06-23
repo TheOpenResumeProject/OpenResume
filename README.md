@@ -22,6 +22,16 @@ a template marketplace that can take the OpenResume specification and get
 creative with the presentation. We plan on developing a similar specification
 for styling/formatting/presentation in the upcoming days.
 
+The parent object is called an OpenResume object. It contains several fields
+that expands into more details. The following table describes the top-level
+fields as well as the nested fields.
+
+| Field Name | Data Type | Required | Values      | Remarks                      |
+| ---------- | --------- | -------- | ----------- | ---------------------------- |
+| version    | string    | Yes      | "0.0.1"     | OpenResume version           |
+| format     | string    | Yes      | "orf"       | OpenResume format            |
+| meta       | object    | Yes      | See Section | summary for easier searching |
+| data       | object    | Yes      | See Section | the content of the resume    |
 
 ## How to Use
 Coming!
