@@ -23,16 +23,16 @@
       "zip": null,
       "country": "us",
       "email": "ssalekin14@gmail.com",
-      "linkedin_url": null,
-      "portfolio_url": null,
-      "website_url": null,
-      "other_social_url": [
+      "url_linkedin": null,
+      "url_portfolio": null,
+      "url_website": null,
+      "url_other": [
         {
-          "platform_name": "Facebook",
+          "text": "Facebook",
           "url": "facebook.com/user"
         },
         {
-          "platform_name": "Dribble",
+          "text": "Dribble",
           "url": "dribble.com/user"
         }
       ]
