@@ -49,7 +49,7 @@ The `data` is the meat of the resume. `data` has a number of objects, which are 
 sections of the resume, such as *Education*, *Work History*, *Projects* etc that you may
 have listed in your resume. We will describe them in further details here.
 
-ojbect: `personal`
+#### `personal`
 | Field Name    | Data Type | Required | Default | Values         | Remarks                      |
 | ----------    | --------- | -------- | ------- | -------------- | ---------------------------- |
 | name          | string    | Yes      | None    | Your name      | This is displayed as title   |
@@ -66,7 +66,7 @@ ojbect: `personal`
 | url_portfolio | string    | No       | None    | URL for portfolio | URL to your portfolio     |
 | url_other     | array     | No       | None    | List of URL objects | [more](#url-object)     |
 
-object: `summary`
+#### `summary`
 | Field Name | Data Type | Required | Default | Values       | Remarks                      |
 | ---------- | --------- | -------- | ------- | -----------  | ---------------------------- |
 | summary    | string    | No       | None    |              | summary/objective text       |
