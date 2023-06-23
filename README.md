@@ -75,7 +75,15 @@ The personal object contains the following fields:
 | url_linkedin  | string    | No       | None    | LinkedIn profile| Actual URL of your profile  |
 | url_website   | string    | No       | None    | URL for website | Actual URL of your website  |
 | url_portfolio | string    | No       | None    | URL for portfolio | URL to your portfolio     |
-| url_other     | array     | No       | None    | List of URL objects | [more](#url-object)     |
+| url_other     | array     | No       | None    | List of URLs   | [More on URL Object](#url)   |
+
+##### URL
+A URL object consists of the following fields:
+
+| Field Name    | Data Type | Required | Default | Values         | Remarks                      |
+| ------------- | --------- | -------- | ------- | -------------- | ---------------------------- |
+| link          | string    | Yes      | None    | URL            | The actual URL               |
+| text          | string    | No       | None    | Text to display| Show some text instead of URL|
 
 #### Education
 `education` is an array and it contains one or more degree objects. Each `degree` contains the following
