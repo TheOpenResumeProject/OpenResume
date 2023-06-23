@@ -49,9 +49,16 @@ The `data` is the meat of the resume. `data` has a number of objects, which are 
 sections of the resume, such as *Education*, *Work History*, *Projects* etc that you may
 have listed in your resume. We will describe them in further details here.
 
-#### `personal`
+| Object/Field Name | Data Type | Required | Spefication            |
+| ----------------- | --------- | -------- | ---------------------- |
+| personal          | object    | Yes      | [Personal](#personal)  |
+| summary           | string    | No       | [Summary](#summary)    |
+| education         | array     | Yes      | [Education](#education)|
+
+#### Personal
+The personal object contains the following fields:
 | Field Name    | Data Type | Required | Default | Values         | Remarks                      |
-| ----------    | --------- | -------- | ------- | -------------- | ---------------------------- |
+| ------------- | --------- | -------- | ------- | -------------- | ---------------------------- |
 | name          | string    | Yes      | None    | Your name      | This is displayed as title   |
 | phone_number  | string    | Yes      | None    | Contact number | Include area code as well    |
 | email         | string    | Yes      | None    | Email address  | Where should the contact you |
@@ -66,13 +73,37 @@ have listed in your resume. We will describe them in further details here.
 | url_portfolio | string    | No       | None    | URL for portfolio | URL to your portfolio     |
 | url_other     | array     | No       | None    | List of URL objects | [more](#url-object)     |
 
-#### `summary`
-| Field Name | Data Type | Required | Default | Values       | Remarks                      |
-| ---------- | --------- | -------- | ------- | -----------  | ---------------------------- |
-| summary    | string    | No       | None    |              | summary/objective text       |
+#### Education
+`education` is an array and it contains one or more degree objects. Each degree contains the following
+fields:
+
+| Field Name    | Data Type | Required | Default | Values         | Remarks                      |
+| ------------- | --------- | -------- | ------- | -------------- | ---------------------------- |
+| degree_level  | string    | Yes      | None    | bachelors, masters, k12 | level of education  |
+| degree_title  | string    | Yes      | None    | B.A., M.A, B.S.| Specific title of the degree |
+| completed     | bool      | Yes      | true    | true, false    | Is degree finished or not    |
+| institution   | string    | Yes      | None    | Name of institution | Full name of the school |
+| institution_city | string | No       | None    | Chicago, Denver etc.| City wehre the school is|
+| institution_state| string | No       | None    | "AL", "NY", etc. | 2-letter state abbreviation|
+| institution_zip  | string | No       | None    | ZIP/Postal code| School's ZIP code            |
+| institution_country | string | No    | None    | "us", "uk", etc| 2-letter country code        |
+| major         | string    | No       | None    | Name of major  | (double/triple) major(s)     |
+| concentration | string    | No       | None    | focus/track    | Specfic focus within major   |
+| minor         | string    | No       | None    | Name of minor  | (double/triple) minor(s)     |
+| gpa           | string    | No       | None    | Cumulative GPA | Overall GPA (number/letter)  |
+| gpa_scale     | string    | No       | None    | Maximum GPA    | The GPA scale, like 4.0      |
+| start_day     | number    | No       | 1       | {0...31}       | Day you started school       |
+| start_month   | number    | No       | 1       | {1...12}       | Month you started school     |
+| start_year    | number    | Yes      | None    | >= 1900        | Year you started school      |
+| end_day       | number    | No       | 1       | {0...31}       | Day you ended school         |
+| end_month     | number    | No       | 1       | {1...12}       | Month you ended school       |
+| end_year      | number    | Yes      | None    | >= start_year  | Year you ended school        |
+
+
+#### Summary
+WIP
 
 ## How to Use
-Coming!
+Coming soon!
 
-## License
-MIT
+## License MIT
