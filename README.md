@@ -34,7 +34,7 @@ fields as well as the nested fields.
 | data       | object    | Yes      | [See](#data)| the content of the resume    |
 
 ### Meta
-`meta` section contains a bird's eye view of the resume so that it's faster to
+`meta` contains a bird's eye view of the resume so that it's faster to
 search/crawl/categorize.
 
 | Field Name | Data Type | Required | Default | Values       | Remarks                      |
@@ -45,7 +45,9 @@ search/crawl/categorize.
 | tags       | array     | No       | None    | tags         | comma separted tags          |
 
 ### Data
-Details for the fields in the data section
+The `data` is the meat of the resume. `data` has a number of objects, which are different
+sections of the resume, such as *Education*, *Work History*, *Projects* etc that you may
+have listed in your resume. We will describe them in further details here.
 
 ## How to Use
 Coming!
