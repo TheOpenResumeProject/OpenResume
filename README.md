@@ -125,6 +125,7 @@ objects. A `reference` object contains the following fields:
 | year          | number    | No       | None    | >= 1800        | Year it was published        |
 | month         | number    | No       | None    | {1...12}       | Month of publication         |
 | doi           | string    | No       | None    | The DOI URL    | [More](https://www.doi.org/) |
+| citation_style| string    | No       | apa     | apa,chicago,mla,iee | citation format to use  | 
 | authors       | array     | No       | None    | Array of authors | [Author object](#author)   |
 
 Author
