@@ -30,8 +30,14 @@ fields as well as the nested fields.
 | ---------- | --------- | -------- | ----------- | ---------------------------- |
 | version    | string    | Yes      | "0.0.1"     | OpenResume version           |
 | format     | string    | Yes      | "orf"       | OpenResume format            |
-| meta       | object    | Yes      | See Section | summary for easier searching |
-| data       | object    | Yes      | See Section | the content of the resume    |
+| meta       | object    | Yes      | [See](#meta)| summary for easier searching |
+| data       | object    | Yes      | [See](#data)| the content of the resume    |
+
+### Meta
+Details of the fields in the meta section
+
+### Data
+Details for the fields in the data section
 
 ## How to Use
 Coming!
