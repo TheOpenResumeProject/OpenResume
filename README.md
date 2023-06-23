@@ -57,6 +57,7 @@ have listed in your resume. We will describe them in further details here.
 
 #### Personal
 The personal object contains the following fields:
+
 | Field Name    | Data Type | Required | Default | Values         | Remarks                      |
 | ------------- | --------- | -------- | ------- | -------------- | ---------------------------- |
 | name          | string    | Yes      | None    | Your name      | This is displayed as title   |
@@ -113,6 +114,25 @@ fields:
 | employer_country | string | No       | None    | "US", "UK",... | 2-letter country code        |
 | description   | array     | No       | None    | array of objects | [Description](#description)|
 
+#### Publication
+Similar to `experience` and `education`, the `publication` object is also an array of `reference`
+objects. A `reference` object contains the following fields:
+
+| Field Name    | Data Type | Required | Default | Values         | Remarks                      |
+| ------------- | --------- | -------- | ------- | -------------- | ---------------------------- |
+| title         | string    | Yes      | None    | Title of paper | Example: "A study on..."     |
+| url           | string    | No       | None    | Link to paper  | The actual URL, if any       |
+| year          | number    | No       | None    | >= 1800        | Year it was published        |
+| month         | number    | No       | None    | {1...12}       | Month of publication         |
+| doi           | string    | No       | None    | The DOI URL    | [More](https://www.doi.org/) |
+| authors       | array     | No       | None    | Array of authors | [Author object](#author)   |
+
+Author
+
+| Field Name    | Data Type | Required | Default | Values         | Remarks                      |
+| ------------- | --------- | -------- | ------- | -------------- | ---------------------------- |
+| first         | string    | Yes      | None    | First name     | Example: "Albert"            |
+| last          | string    | Yes      | None    | Last name      | Example: "Einstein"          |
 
 #### Summary
 WIP
