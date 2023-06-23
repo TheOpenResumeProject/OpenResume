@@ -34,7 +34,15 @@ fields as well as the nested fields.
 | data       | object    | Yes      | [See](#data)| the content of the resume    |
 
 ### Meta
-Details of the fields in the meta section
+`meta` section contains a bird's eye view of the resume so that it's faster to
+search/crawl/categorize.
+
+| Field Name | Data Type | Required | Default | Values       | Remarks                      |
+| ---------- | --------- | -------- | ------- | -----------  | ---------------------------- |
+| name       | string    | Yes      | None    | your name    | Whose resume is this?        |
+| sort       | string    | No       | chrono  | chrono, alpha| sort criteria                |
+| sort_order | string    | No       | asc     | asc, desc    | which direction to sort      |
+| tags       | array     | No       | None    | tags         | comma separted tags          |
 
 ### Data
 Details for the fields in the data section
