@@ -50,9 +50,21 @@ sections of the resume, such as *Education*, *Work History*, *Projects* etc that
 have listed in your resume. We will describe them in further details here.
 
 ojbect: `personal`
-| Field Name | Data Type | Required | Default | Values       | Remarks                      |
-| ---------- | --------- | -------- | ------- | -----------  | ---------------------------- |
-| summary    | string    | No       | None    |              | summary/objective text       |
+| Field Name    | Data Type | Required | Default | Values         | Remarks                      |
+| ----------    | --------- | -------- | ------- | -------------- | ---------------------------- |
+| name          | string    | Yes      | None    | Your name      | This is displayed as title   |
+| phone_number  | string    | Yes      | None    | Contact number | Include area code as well    |
+| email         | string    | Yes      | None    | Email address  | Where should the contact you |
+| country_code  | string    | No       | None    | Country Code   | "+1" for the US              |
+| address_line_1| string    | No       | None    | First line addr| Street address if you include|
+| address_line_2| string    | No       | None    | Second line addr| Apt/Suit etc.               |
+| city          | string    | No       | None    | City           | Name of your city            |
+| state         | string    | No       | None    | state, province| For US, two letter state abbr|
+| country       | string    | No       | None    | 2-digit country| For US, "us" (need citation) |
+| url_linkedin  | string    | No       | None    | LinkedIn profile| Actual URL of your profile  |
+| url_website   | string    | No       | None    | URL for website | Actual URL of your website  |
+| url_portfolio | string    | No       | None    | URL for portfolio | URL to your portfolio     |
+| url_other     | array     | No       | None    | List of URL objects | [more](#url-object)     |
 
 object: `summary`
 | Field Name | Data Type | Required | Default | Values       | Remarks                      |
