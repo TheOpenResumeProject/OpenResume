@@ -160,6 +160,22 @@ An `author` object contains the following fields:
 ##### Description
 A `description` contains one or more bullet points and is used in `projects` and `experience` sections
 
+| Field Name    | Data Type | Required | Default | Values         | Remarks                      |
+| ------------- | --------- | -------- | ------- | -------------- | ---------------------------- |
+| text          | string    | Yes      | None    | Project title  | "Linux: an Operating System" |
+| tools         | array     | No       | None    | List of Skills | [See skill](#skills)         |
+
+#### Skills
+The `skills` array contain one or more skill(s). Following are the fields
+for a `skill`:
+
+| Field Name    | Data Type | Required | Default | Values         | Remarks                      |
+| ------------- | --------- | -------- | ------- | -------------- | ---------------------------- |
+| name          | string    | Yes      | None    | Name of the skill | Example: "C", "Python" etc|
+| proficiency   | string    | No       | None    | beginner, advanced| level of proficiency      |
+| category      | string    | No       | None    | broader category| Usefull for categorizing skills |
+
+
 #### Summary
 WIP
 
