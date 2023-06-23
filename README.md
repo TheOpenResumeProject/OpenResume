@@ -52,8 +52,11 @@ have listed in your resume. We will describe them in further details here.
 | Object/Field Name | Data Type | Required | Spefication            |
 | ----------------- | --------- | -------- | ---------------------- |
 | personal          | object    | Yes      | [Personal](#personal)  |
-| summary           | string    | No       | [Summary](#summary)    |
 | education         | array     | Yes      | [Education](#education)|
+| experience        | array     | Yes      | [Experience](#experience)|
+| summary           | string    | No       | [Summary](#summary)    |
+| projects          | array     | No       | [Projects](#projects)  |
+| publication       | array     | No       | [Publication](#publication)|
 
 #### Personal
 The personal object contains the following fields:
@@ -128,12 +131,24 @@ objects. A `reference` object contains the following fields:
 | citation_style| string    | No       | apa     | apa,chicago,mla,iee | citation format to use  | 
 | authors       | array     | No       | None    | Array of authors | [Author object](#author)   |
 
-Author
+##### Author
+An `author` object contains the following fields:
 
 | Field Name    | Data Type | Required | Default | Values         | Remarks                      |
 | ------------- | --------- | -------- | ------- | -------------- | ---------------------------- |
 | first         | string    | Yes      | None    | First name     | Example: "Albert"            |
 | last          | string    | Yes      | None    | Last name      | Example: "Einstein"          |
+
+#### Projects
+`projects` is an array containing one or more `project` object(s), which has following fields.
+
+| Field Name    | Data Type | Required | Default | Values         | Remarks                      |
+| ------------- | --------- | -------- | ------- | -------------- | ---------------------------- |
+| title         | string    | Yes      | None    | Project title  | "Linux: an Operating System" |
+| sub_title     | string    | No       | None    | Project subtitle | A more detailed title      |
+| url           | string    | No       | None    | URL            | Link to demo/code/slide deck |
+| description   | array     | No       | None    | Array of points| [See more](#point)           |
+
 
 #### Summary
 WIP
