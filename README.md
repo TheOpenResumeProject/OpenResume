@@ -74,7 +74,7 @@ The personal object contains the following fields:
 | url_other     | array     | No       | None    | List of URL objects | [more](#url-object)     |
 
 #### Education
-`education` is an array and it contains one or more degree objects. Each degree contains the following
+`education` is an array and it contains one or more degree objects. Each `degree` contains the following
 fields:
 
 | Field Name    | Data Type | Required | Default | Values         | Remarks                      |
@@ -98,6 +98,20 @@ fields:
 | end_day       | number    | No       | 1       | {0...31}       | Day you ended school         |
 | end_month     | number    | No       | 1       | {1...12}       | Month you ended school       |
 | end_year      | number    | Yes      | None    | >= start_year  | Year you ended school        |
+
+
+#### Experience 
+`experience` is also an array containing one or more `position` objects. Each `position` contains the following
+fields:
+
+| Field Name    | Data Type | Required | Default | Values         | Remarks                      |
+| ------------- | --------- | -------- | ------- | -------------- | ---------------------------- |
+| title         | string    | Yes      | None    | Official title | Example: Tech Lead, Manager  |
+| employer      | string    | Yes      | None    | Employer name  | Specific title of the degree |
+| employer_city | string    | No       | None    | Employer city  | "Remote" for remote jobs     |
+| employer_state| string    | No       | None    | "NC", "NY",... | 2-letter state abbreviation  |
+| employer_country | string | No       | None    | "US", "UK",... | 2-letter country code        |
+| description   | array     | No       | None    | array of objects | [Description](#description)|
 
 
 #### Summary
