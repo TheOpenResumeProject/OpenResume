@@ -162,7 +162,7 @@ A `description` contains one or more bullet points and is used in `projects` and
 
 | Field Name    | Data Type | Required | Default | Values         | Remarks                      |
 | ------------- | --------- | -------- | ------- | -------------- | ---------------------------- |
-| text          | string    | Yes      | None    | Project title  | "Linux: an Operating System" |
+| text          | string    | Yes      | None    | details text   | "built an OS called Linux"   |
 | tools         | array     | No       | None    | List of Skills | [See skill](#skills)         |
 
 #### Skills
