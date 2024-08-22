@@ -1,18 +1,14 @@
 # OpenResume
-An attempt to standardize resume so that data and formatting are kept and
-treated separately. Hopefully the days of re-typing your whole resume into
-the ATS system is over.
+A standard for resume so that styling can be separated from the data.
 
-## Vision
-Resumes contains _more or less_ the same thing, yet it is one of the most
-frustrating portion between the jobseekers and employers. We want to bring
-this to chatGPT era by setting a standard that's machine readable so the
-ATS systems can expect and parse resumes without going through development
-hell to extract data _correctly_ from the candidates.
+## Background
+Resumes have predictable contents but since there is no agreed upon standards,
+everyone does their own thing. As a result, parsing resumes get complicated
+for ATS systems: sometimes it misses things that you want it to catch.
 
-We would formalize a standard in the coming days using JSON as this ubiquitious
-and portable. We will also implement libraries in different languages so
-you can easily parse a resume sent using the OpenResume format.
+The other issue is you are stuck if you picked a certain template. If you want
+to keep the contents the same but would like to try a different look, you
+cant do it without spending tons of time.
 
 
 ## Specification
