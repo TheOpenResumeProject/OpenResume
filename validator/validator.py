@@ -2,7 +2,7 @@ import json
 from jsonschema import validate, ValidationError
 
 def validate_resume(resume):
-    with open("resume_schema.json", "r") as schema_file:
+    with open("../schema.json", "r") as schema_file:
         schema = json.load(schema_file)
         
     try:
