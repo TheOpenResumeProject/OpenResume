@@ -101,13 +101,13 @@
                                 ]
                             }
                         }
-                    }
-                },
-                "required": [
-                    "name",
-                    "phone_number",
-                    "email"
-                ]
+                    },
+                    "required": [
+                        "name",
+                        "phone_number",
+                        "email"
+                    ]
+                }
             },
             "education": {
                 "type": "array",
